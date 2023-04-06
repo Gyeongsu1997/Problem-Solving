@@ -1,9 +1,9 @@
 while True:
-    str = input()
-    if (str == "."):
+    s = input()
+    if (s == "."):
         break
     stack = []
-    for c in str:
+    for c in s:
         if c == '(' or c == '[':
             stack.append(c)
         elif c == ')':
